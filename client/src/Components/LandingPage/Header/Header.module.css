@@ -1,0 +1,39 @@
+.headerVideo{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.headerContainer{
+    position: relative;
+    height: 91.5vh;
+    overflow: hidden;
+    margin-top: -2em;
+}
+
+.headerContent{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.dot{
+    color: rgb(245, 155, 37);
+    font-size: 100px ;
+    line-height: 0;
+}
+
+.signUpButton{
+    margin-top: 1em !important;
+    padding: .7em .8em !important;
+    color: #fff !important;
+   background-color: rgba(255, 176, 29, 0.925) !important;
+}
+
+
+/* 
+font-family: 'Roboto Slab', serif;  para
+font-family: 'Lato', sans-serif; heading
+*/

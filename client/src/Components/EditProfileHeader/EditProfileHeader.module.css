@@ -1,0 +1,51 @@
+.center{
+margin: 1em auto;
+
+}
+
+.avatar{
+    width: 120px !important;
+    height: 180px !important;
+    background-size: cover;
+    background-position: center;
+    margin-right: 1em;
+}
+
+.spacing{
+    padding: 1em;
+}
+
+.bgcolor{
+    color: #fff !important;
+    background-color: rgba(255, 176, 29, 0.925) !important;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mediaContainer{
+    display: flex;
+}
+
+.downSpace{
+    margin-bottom: 4.5em !important;
+}
+
+@media (max-width: 606px ) {
+    
+    .details{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .mediaContainer{
+        flex-direction: column;
+    }
+    
+    .downSpace{
+        margin-bottom: 0 !important;
+    }
+    
+  }

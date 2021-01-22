@@ -1,0 +1,85 @@
+.paper{
+    margin: 1em 1em .5em 0 !important;
+    padding: 1em 0;
+    display: inline-block;
+    width: 48%;
+}
+
+.avatar{
+    width: 100px !important;
+    height: 100px !important;
+    margin-right: 1em;
+}
+
+.social{
+    position: relative;
+}
+
+.socialContent{
+    display: block !important;
+    line-height: 25px;
+}
+
+.accordian{
+    position: absolute !important;
+    right: 6%;
+    bottom: 280%;
+    width: 0;
+    height: 0;
+}
+
+.like{
+    background-color: rgb(69, 144, 243);
+    color: #fff;
+    width: 1.5em !important;
+    height: 1.5em !important;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.dislike{
+    background-color: rgb(243, 75, 69);
+    color: #fff;
+    width: 1.5em !important;
+    height: 1.5em !important;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+
+@media (max-width: 960px) {
+    .accordian{
+       
+        right: 0%;
+        bottom: 0%;
+    }
+    .paper{
+        width: 100%;
+    }
+    
+}
+
+@media (max-width: 961px) {
+    .accordian{
+       
+        bottom: 230%;
+    }    
+}
+
+@media (max-width: 870px) {
+    
+    .accordian{
+       right: 5%;
+    }   
+    
+}
+
+@media (max-width: 640px) {
+    
+    .accordian{
+       
+        right: 17%;
+        bottom: 180%;
+    }   
+    
+  }
